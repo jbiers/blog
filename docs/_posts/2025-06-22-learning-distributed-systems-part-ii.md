@@ -41,7 +41,7 @@ They both have their pros and cons. *Asynchronous replication* is a lot faster, 
 
 *Synchronous replication*, on the other hand, guarantees such a scenario won't happen. The downsides are the obvious decreased performance and, even worse, the possibility of stalling the Leader if one of the Followers fails to respond to the data replication in case of node dying or a network partition.
 
-![single-leader-replication](./image.png)
+![single-leader-replication](/assets/images/single-leader.png)
 
 ## What happens if a replica fails?
 
