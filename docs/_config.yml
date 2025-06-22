@@ -3,7 +3,7 @@ email: juliabiersuriano@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I'm a Software Engineer with a passion for Open-Source, the Kubernetes and Cloud-Native ecosystems, Linux internals and more.
   Currently working at SUSE.
-baseurl: "/blog/" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://jbiers.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "https://jbiers.github.io"
 
