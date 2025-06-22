@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Learning Distributed Systems - Part II - Data Replication."
+title:  "Learning Distributed Systems - Part II - Single Leader Data Replication"
 date:   2025-06-22 00:10:42 -0400
 categories: dist-sys
 ---
 
-# Part II - Data Replication
+# Part II - Single Leader Data Replication
 ## Introduction
 
 In this post we're going to explore concepts around data replication in distributed systems.
@@ -41,7 +41,7 @@ They both have their pros and cons. *Asynchronous replication* is a lot faster, 
 
 *Synchronous replication*, on the other hand, guarantees such a scenario won't happen. The downsides are the obvious decreased performance and, even worse, the possibility of stalling the Leader if one of the Followers fails to respond to the data replication in case of node dying or a network partition.
 
-![single-leader-replication](image.png)
+![single-leader-replication](./image.png)
 
 ## What happens if a replica fails?
 
